@@ -1,11 +1,10 @@
 ### Project: Recipes
 
-This is first project for HTML practice. This is going to be a simple recipe website. It will consist of main index page which will have some links. 
+This is first project for HTML practice. This a simple recipe website with basic HTML, no CSS styling. It consists of main index page which has links to some of the recipes. 
 
 Skills:
 
-- HTML
+- Basic HTML
 - Git
 - GitHub
-- VS code
-- ZSH shell in terminal
+- ZSH shell usage in terminal
