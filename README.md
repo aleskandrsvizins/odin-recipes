@@ -8,3 +8,4 @@ Skills:
 - Git
 - GitHub
 - VS code
+- ZSH shell in terminal
