@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.title {
+
+    font-weight: 600;
+    font-size: 36px;
+    color: #137777;
+    background-color: #f1f9f8;
+    text-align: center;
+    padding: 20px;
+
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul.recipe-list li {   
+
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 14px; /*add spacing between li*/
+    padding: 10px;
+    
+}
+
+li a {
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: #fcdad7;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fab5af;
+}
+
+.first-link {
+    background-color: #f9d0ca;
+}
+
+.second-link {
+    background-color: #f7dbc3;
+}
+
+.third-link {
+
+    background-color: #f3efa3;
+
+}
+
+
+
