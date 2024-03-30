@@ -11,7 +11,7 @@ h1.the-title {
     font-size: 36px;
     color: #137777;
     background-color: #f1f9f8;
-    text-align: center;
+    text-align: right;
     padding: 40px;
 
 }
@@ -25,7 +25,7 @@ ul.recipe-list li {
 
     font-size: 22px;
     text-align: center;
-    padding: 20px;
+    padding: 5% 0 5% 0;
     
 }
 
@@ -77,3 +77,15 @@ li.third-link a:hover {
 
 
 /* MAIN PAGE END */
+
+/* RECIPE PAGES */
+
+.recipe-title {
+    padding: 40px 0 40px 20px;
+}
+
+.recipe-title.one {
+    background-color: #f9d0ca;
+    margin-bottom: 20px;
+}
+
