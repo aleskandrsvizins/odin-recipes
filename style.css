@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin:0;
+    margin: 0;
 }
 
 /* MAIN PAGE START */
@@ -12,7 +12,7 @@ h1.the-title {
     color: #137777;
     background-color: #f1f9f8;
     text-align: right;
-    padding: 40px;
+    padding: 40px 16% 40px 40px;
 
 }
 
@@ -23,9 +23,8 @@ ul.recipe-list {
 
 ul.recipe-list li {   
 
-    font-size: 22px;
-    text-align: center;
-    padding: 5% 0 5% 0;
+    font-size: 24px;
+    padding: 20px 0 3% 16%;
     
 }
 
@@ -45,6 +44,7 @@ li.first-link a {
 
 li.first-link a:hover {
     text-decoration-color: #f0310f;
+    color: #a63a26;
 }
 
 /* second link */
@@ -59,6 +59,7 @@ li.second-link a {
 
 li.second-link a:hover {
     text-decoration-color: #fa8b04;
+    color: #c36f08;
 }
 
 /* third link */
@@ -73,6 +74,7 @@ li.third-link a {
 
 li.third-link a:hover {
     text-decoration-color: #debd17;
+    color: #b09302;
 }
 
 
@@ -80,12 +82,65 @@ li.third-link a:hover {
 
 /* RECIPE PAGES */
 
+/* .recipe-container {
+    position: relative;
+} */
+
 .recipe-title {
-    padding: 40px 0 40px 20px;
+    padding: 40px 0 40px 16%;
+    font-weight: 600;
+}
+
+img {
+    margin: 40px 0 20px 16%; /* margin instead of padding because then corners are not right*/
+    border-radius: 20px;
+}
+
+.recipe-text h2 {
+    padding: 20px 20px 20px 16%;
+    font-weight: 600;
+}
+
+.recipe-text h3 {
+    padding: 0px 0px 20px 16%;
+    font-weight: 600;
+}
+
+.recipe-text p {
+    padding-left: 16%;
+    margin-right: 40%;
+    font-size: 18px;
+}
+
+.recipe-text ul {
+    padding: 0px 0px 0px 17%;
+    font-size: 18px;
+}
+
+.recipe-text li > p {
+    padding: 0 0 10px 0;
+}
+
+.recipe-text .steps {
+    padding: 0px 0px 40px 17%;
+    font-size: 18px;
+}
+
+.ingredient-block ul:first-of-type {
+    padding-bottom: 20px;
 }
 
 .recipe-title.one {
     background-color: #f9d0ca;
-    margin-bottom: 20px;
+    color: #a63a26;
 }
 
+.recipe-title.two {
+    background-color: #f7dbc3;
+    color: #c36f08;
+}
+
+.recipe-title.three {
+    background-color: #f3efa3;
+    color: #b09302;
+}
